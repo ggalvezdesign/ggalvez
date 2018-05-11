@@ -47,6 +47,8 @@
   margin-right: auto;
   width: 100%;
   position: relative;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .title {
@@ -115,6 +117,7 @@
 }
 
 .gg {
+  top: 0px;
   width: 40;
   font-family: EksellDisplay-Stencil;
   font-size: 130px;
@@ -226,6 +229,10 @@
   color: #2c8efe;
 }
 
+.href2 {
+  text-decoration: none;
+}
+
 #top,
 #bottom,
 #left,
@@ -277,6 +284,7 @@
 .gg-left {
   width: 45%;
   float: left;
+  top: 0px;
 }
 
 .story {
