@@ -45,7 +45,7 @@
 .image-component {
   margin-left: auto;
   margin-right: auto;
-  width: 97%;
+  width: 100%;
   position: relative;
 }
 
@@ -57,7 +57,7 @@
   left: 0px;
   top: 0px;
   background-color: rgb(246, 231, 231);
-  opacity: 0.9;
+  opacity: 0.1;
   z-index: 1000;
 }
 
@@ -167,6 +167,8 @@
   text-align: center;
 }
 .hero {
+  padding-top: 40px;
+  padding-bottom: 40px;
   width: 100%;
   font-family: FreightDispPro;
   font-weight: bold;
@@ -257,8 +259,14 @@
   bottom: 0;
 }
 
-.story .edu .large-images .hero .horizontal-flexbox .cv .email {
+.story .edu .hero .horizontal-flexbox .cv .email {
   width: 100%;
+}
+
+.large-images {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .cv-right {
