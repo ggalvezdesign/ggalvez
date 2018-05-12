@@ -197,8 +197,13 @@
   margin-right: auto;
 }
 .pad-top {
-  padding-top: 60px;
+  padding-top: 268px;
+  padding-bottom: 123px;
   max-width: 1050px;
+}
+
+.pad-top2 {
+  padding-top: 120px;
 }
 
 .logo {
@@ -327,6 +332,7 @@
   background: #f6e7e7;
   position: fixed;
   z-index: 1000;
+  /* opacity: 0.8; */
 }
 #left,
 #right {
@@ -339,6 +345,9 @@
 }
 #right {
   right: 0;
+}
+.buffer-box {
+  height: 241px;
 }
 
 #top,
