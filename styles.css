@@ -72,7 +72,7 @@
 
   background-color: rgb(246, 231, 231);
   opacity: 0;
-  z-index: 1000;
+  z-index: 50;
 }
 
 .component-image {
@@ -326,6 +326,7 @@
 #right {
   background: #f6e7e7;
   position: fixed;
+  z-index: 1000;
 }
 #left,
 #right {
