@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-
+  min-width: 450px;
   justify-content: space-between;
 
   align-items: center;
@@ -13,7 +13,7 @@
 .flex-child {
   justify-content: center;
   height: 200px;
-  width: 100px;
+  min-width: 250px;
   background-color: red;
   border-color: black;
   border-width: 5px;
@@ -24,6 +24,7 @@
   float: left;
   clear: none;
   width: 100%;
+  padding-bottom: 60px;
 }
 
 .page-with-border {
@@ -59,7 +60,18 @@
   left: 0px;
   top: 0px;
   background-color: rgb(246, 231, 231);
-  opacity: 0.1;
+  opacity: 0;
+  z-index: 1000;
+}
+
+.titl-below {
+  float: left;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: rgb(246, 231, 231);
+  opacity: 0;
   z-index: 1000;
 }
 
@@ -76,6 +88,14 @@
   left: 0;
   right: 0;
   width: 50%;
+  height: 30%;
+  margin: auto;
+}
+
+.image-component-text-below {
+  position: absolute;
+  margin-left: auto;
+  width: 100%;
   height: 30%;
   margin: auto;
 }
@@ -131,13 +151,9 @@
 }
 .cv {
   width: 50%;
-  font-family: FreightDispPro;
-  font-size: 30px;
-  font-weight: bold;
-  font-style: italic;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
+  font-family: InknutAntiqua;
+
+  font-size: 20px;
   text-align: right;
   color: #2c8efe;
 }
@@ -159,25 +175,58 @@
 
 .specialize {
   min-width: 372px;
-  height: 300px;
-  font-family: FreightDispPro;
-  font-size: 50px;
+  /* height: 300px; */
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 33px;
 
   color: #2c8efe;
 }
+
+.reduce-height {
+  height: 50px;
+}
 .specialize-text {
   min-width: 372px;
-  text-align: center;
+  text-align: left;
 }
+.asdf {
+  max-width: 880px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pad-top {
+  padding-top: 60px;
+  max-width: 1050px;
+}
+
+.logo {
+  width: 154px;
+}
+
 .hero {
   padding-top: 40px;
   padding-bottom: 40px;
   width: 100%;
-  font-family: FreightDispPro;
-  font-weight: bold;
-  font-style: normal;
-  font-family: FreightDispProBold;
-  font-size: 70px;
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 300;
+  font-style: Light;
+  /* font-family: FreightDispProBold; */
+  font-size: 53px;
+  line-height: 1.43;
+  text-align: left;
+  color: #2c8efe;
+}
+.hero-center {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 100%;
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 300;
+  font-style: Light;
+  /* font-family: FreightDispProBold; */
+  font-size: 53px;
   line-height: 1.43;
   text-align: center;
   color: #2c8efe;
@@ -192,19 +241,56 @@
   min-width: 313px;
 }
 
+.subText-2 {
+  width: 100%;
+  padding: 5px;
+  font-family: RobotoMono;
+  font-size: 20px;
+  text-align: left;
+  color: #2c8efe;
+  min-width: 313px;
+}
+
 .h1 {
   align-self: center;
   position: relative;
-  font-family: FreightDispProBold;
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 300;
+  font-style: Light;
   font-size: 35px;
   text-align: center;
   color: #2c8efe;
   min-width: 313px;
 }
 
+.h3 {
+  align-self: center;
+  position: relative;
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 30px;
+  text-align: center;
+  color: #2c8efe;
+  min-width: 313px;
+}
+
+.h1-2 {
+  align-self: center;
+  position: relative;
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 25;
+  text-align: left;
+  color: #2c8efe;
+}
+
 .h2 {
   position: relative;
-  font-family: FreightDispPro;
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 300;
+  font-style: Light;
   font-size: 35px;
   text-align: center;
   color: #2c8efe;
@@ -212,10 +298,11 @@
 }
 
 .bfa {
-  font-family: FreightDispProBold;
+  font-family: "Roboto", sans-serif;
   width: 100%;
-  font-size: 25px;
-  text-align: center;
+  padding-bottom: 20px;
+  font-size: 20px;
+  text-align: left;
   color: #2c8efe;
 }
 .case-study {
@@ -269,6 +356,21 @@
 .story .edu .hero .horizontal-flexbox .cv .email {
   width: 100%;
 }
+.email {
+  padding-top: 120px;
+  padding-bottom: 60px;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+}
+.email2 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.edu {
+  padding-top: 60px;
+}
 
 .large-images {
   width: 90%;
@@ -281,6 +383,11 @@
   width: 50%;
   float: right;
 }
+.cv-right {
+  padding-right: 15px;
+  width: 50%;
+  float: center;
+}
 .gg-left {
   width: 45%;
   float: left;
@@ -288,10 +395,73 @@
 }
 
 .story {
+  padding-top: 60px;
   display: flex;
   flex-wrap: wrap;
 }
 
 .edu {
   height: 100px;
+}
+
+/*  SECTIONS  */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%;
+}
+.col:first-child {
+  margin-left: 0;
+}
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1; /* For IE 6/7 */
+}
+
+/*  GRID OF TWO  */
+.span_2_of_2 {
+  width: 100%;
+}
+.span_1_of_2 {
+  width: 49.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 745px) {
+  .col {
+    margin: 1% 0 1% 0%;
+  }
+}
+
+@media only screen and (max-width: 745px) {
+  .span_2_of_2,
+  .span_1_of_2 {
+    width: 100%;
+  }
+}
+
+.cv-center {
+  width: 100%;
+  font-family: InknutAntiqua;
+
+  font-size: 20px;
+  text-align: center;
+  color: #2c8efe;
 }
