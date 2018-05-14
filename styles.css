@@ -239,7 +239,7 @@
 .subText {
   width: 100%;
   padding: 5px;
-  font-family: RobotoMono;
+  font-family: "Roboto Mono";
   font-size: 20px;
   text-align: center;
   color: #2c8efe;
@@ -249,7 +249,7 @@
 .subText-2 {
   width: 100%;
   padding: 5px;
-  font-family: RobotoMono;
+  font-family: "Roboto Mono";
   font-size: 20px;
   text-align: left;
   color: #2c8efe;
@@ -303,7 +303,7 @@
 }
 
 .bfa {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", sans-serif;
   width: 100%;
   padding-bottom: 20px;
   font-size: 20px;
@@ -314,7 +314,7 @@
   padding: 20px;
   padding-bottom: 80px;
   text-decoration: none;
-  font-family: RobotoMono;
+  font-family: "Roboto Mono";
   font-size: 16px;
   letter-spacing: normal;
   text-align: center;
