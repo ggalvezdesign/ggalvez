@@ -197,7 +197,7 @@
   margin-right: auto;
 }
 .pad-top {
-  padding-top: 268px;
+  padding-top: 200px;
   padding-bottom: 123px;
   max-width: 1050px;
 }
@@ -208,6 +208,7 @@
 
 .logo {
   width: 154px;
+  padding-left: 25px;
 }
 
 .hero {
@@ -226,10 +227,13 @@
 .hero-center {
   padding-top: 40px;
   padding-bottom: 40px;
+  max-width: 880px;
   width: 100%;
   font-family: "Inknut Antiqua", serif;
   font-weight: 300;
   font-style: Light;
+  margin-left: auto;
+  margin-right: auto;
   /* font-family: FreightDispProBold; */
   font-size: 53px;
   line-height: 1.43;
