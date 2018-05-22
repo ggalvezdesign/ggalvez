@@ -151,7 +151,7 @@
 }
 .cv {
   width: 50%;
-  font-family: InknutAntiqua;
+  text-decoration: none;
 
   font-size: 20px;
   text-align: right;
@@ -396,8 +396,12 @@
   margin-right: auto;
 }
 
+.cv-right-pad {
+  padding-right: 25px;
+}
+
 .cv-right {
-  padding-right: 15px;
+  padding-right: 25px;
   width: 50%;
   float: right;
 }
@@ -477,9 +481,32 @@
 
 .cv-center {
   width: 100%;
-  font-family: InknutAntiqua;
+  text-decoration: none !important;
 
   font-size: 20px;
   text-align: center;
+  color: #2c8efe;
+}
+
+a:link {
+  color: #2c8efe;
+}
+
+a:visited {
+  color: #2c8efe;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+  color: #2c8efe;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  color: #2c8efe;
+}
+
+a:active {
+  background: #265301;
   color: #2c8efe;
 }
