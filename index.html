@@ -76,12 +76,14 @@
             <!-- <div class="image-colored-overlay"></div> -->
             <!-- <div class="image content"> </div> -->
 
-            <div class="image-component">
+            <div href="#" onclick="toggle_visibility('integrate');" class="image-component">
 
-                <div class="title">
+                <div style="display: block" id="integrate" class="title">
                     <div class="image-component-vertival-containter">
                         <div class="image-component-text">
-                            <div class="h1"> Integrate Play Solutions</div>
+                            <div class="h1">
+                                <b>Integrate Play Solutions</b>
+                            </div>
                             <div class="h2">Web Design</div>
                             <div class="subText">UI Designer</div>
                         </div>
@@ -95,12 +97,14 @@
                 <a class="case-study" href="https://medium.com/@gabrielladraws/ui-design-integrate-play-102c5700d7c3">Read Case Study</a>
             </div>
 
-            <div class="image-component">
+            <div href="#" onclick="toggle_visibility('tomorrow');" class="image-component">
 
-                <div class="title">
+                <div style="display: block" id="tomorrow" class="title">
                     <div class="image-component-vertival-containter">
                         <div class="image-component-text">
-                            <div class="h1"> The Academy of Tomorrow</div>
+                            <div class="h1">
+                                <b>The Academy of Tomorrow</b>
+                            </div>
                             <div class="h2">Nova App Design</div>
                             <div class="subText">UI Designer</div>
                         </div>
@@ -118,12 +122,14 @@
                 and story are the core of humanity.</div>
 
 
-            <div class="image-component">
+            <div href="#" onclick="toggle_visibility('bella');" class="image-component">
 
-                <div class="title">
+                <div style="display: block" id="bella" class="title">
                     <div class="image-component-vertival-containter">
                         <div class="image-component-text">
-                            <div class="h1"> Bella & Wren Design</div>
+                            <div class="h1">
+                                <b>Bella & Wren Design</b>
+                            </div>
                             <div class="h2">Online Store</div>
                             <div class="subText">Art Direction, Lead UX/UI Designer</div>
                         </div>
@@ -136,12 +142,14 @@
             <!-- <div class="case-study">Read Case Study</div> -->
 
 
-            <div class="image-component">
+            <div href="#" onclick="toggle_visibility('honeycomb');" class="image-component">
 
-                <div class="title">
+                <div style="display: block" id="honeycomb" class="title">
                     <div class="image-component-vertival-containter">
                         <div class="image-component-text">
-                            <div class="h1"> Honeycomb </div>
+                            <div class="h1">
+                                <b>Honeycomb </b>
+                            </div>
                             <div class="h2">Mobile App Design</div>
                             <div class="subText">Art Direction, Branding</div>
                         </div>
@@ -299,3 +307,15 @@
             </div>
         </div>
     </div>
+
+    <script type="text/javascript">
+
+        function toggle_visibility(id) {
+            var e = document.getElementById(id);
+            if (e.style.display == 'block')
+                e.style.display = 'none';
+            else
+                e.style.display = 'block';
+        }
+
+    </script>
